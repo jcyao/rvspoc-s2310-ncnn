@@ -1,0 +1,1 @@
+/home/ubuntu/Downloads/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/ubuntu/Downloads/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot -march=rv64gcv0p7_zfh_xtheadc -mabi=lp64d -mtune=c906 -DC906=1 -static -O3 -DNDEBUG -rdynamic CMakeFiles/nanodetplus_pnnx.dir/nanodetplus_pnnx.cpp.o -o nanodetplus_pnnx  ../src/libncnn.a  -latomic 
